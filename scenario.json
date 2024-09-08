@@ -1,0 +1,57 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1725792523593,
+      "record": {
+        "value": "30",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xa56327f48961585b2fa64074b8528e42548257f46d3995c441cbaaf6cd3fb9f9",
+        "contractName": "Will",
+        "bytecode": "6080604052335f5f6101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346001819055505f60025f6101000a81548160ff0219169083151502179055506103e8806100705f395ff3fe608060405234801561000f575f5ffd5b5060043610610034575f3560e01c806388d5159414610038578063eddcca9914610054575b5f5ffd5b610052600480360381019061004d9190610347565b61005e565b005b61005c610104565b005b600382908060018154018082558091505060019003905f5260205f20015f9091909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508060045f8473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20819055505050565b5f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461015b575f5ffd5b600160025f6101000a81548160ff02191690831515021790555061017d61017f565b565b6001151560025f9054906101000a900460ff1615151461019d575f5ffd5b5f5f90505b6003805490508110156102b357600381815481106101c3576101c2610385565b5b905f5260205f20015f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc60045f6003858154811061021b5761021a610385565b5b905f5260205f20015f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205490811502906040515f60405180830381858888f193505050501580156102a5573d5f5f3e3d5ffd5b5080806001019150506101a2565b50565b5f5ffd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6102e3826102ba565b9050919050565b6102f3816102d9565b81146102fd575f5ffd5b50565b5f8135905061030e816102ea565b92915050565b5f819050919050565b61032681610314565b8114610330575f5ffd5b50565b5f813590506103418161031d565b92915050565b5f5f6040838503121561035d5761035c6102b6565b5b5f61036a85828601610300565b925050602061037b85828601610333565b9150509250929050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52603260045260245ffdfea264697066735822122028bf1d1ac7cbb96c27cf9043da0adc4c9e7377435b17518eb4436cfd2835c39c64736f6c634300081b0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0xa56327f48961585b2fa64074b8528e42548257f46d3995c441cbaaf6cd3fb9f9": [
+      {
+        "inputs": [],
+        "name": "hasDeceased",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address payable",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "setInheritance",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "payable",
+        "type": "constructor"
+      }
+    ]
+  }
+}
